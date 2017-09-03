@@ -15,8 +15,7 @@ class Movie():
     def __init__(self,title,image,trailer):
     """ 
         Inits Movie with title, image, and trailer information
-    """
-    
+    """    
     self.title = title
     self.poster_image_url = image
     self.trailer_youtube_url = trailer
